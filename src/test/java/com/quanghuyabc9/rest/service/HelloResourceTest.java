@@ -16,6 +16,6 @@ public class HelloResourceTest
     @Test
     public void testHello()
     {
-        assertEquals(helloResource.hello().text(), "Hello from Jakarta EE");
+        assertEquals("Hello from Jakarta EE", helloResource.hello().text());
     }
 }
