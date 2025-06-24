@@ -1,6 +1,6 @@
 services:
   wildfly:
-    image: jakarta-ee-first-look-wildfly:1.0
+    image: jakarta-ee-first-look-wildfly:${VERSION}
     build:
       context: .
       dockerfile: Dockerfile
